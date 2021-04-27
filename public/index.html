@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Socket.IO chat</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app" class="container">
+      <div class="login__content">
+        <div class="login__card">
+          <form id="login">
+            <label for="nick">Nickname</label>
+            <input id="nick" type="text" placeholder="Choose a nickname" />
+            <button class="btn-select" id="enter-chat">ENTER</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
